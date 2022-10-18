@@ -132,3 +132,31 @@ button[disabled=disabled], button:disabled {
 .campo-invalido{
 	border: 1px solid red;
 }
+
+.paciente-invalido {
+	background-color: lightcoral;
+}
+
+#mensagens-erro {
+	color: red;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#filtrar-tabela {
+	width: 250px;
+	height: 35px;
+	margin-bottom: 10px;
+	
+}
+
+.invisivel {
+	display: none;
+}
+/*Coloquei*/
+#erro-ajax {
+	color: red;
+}

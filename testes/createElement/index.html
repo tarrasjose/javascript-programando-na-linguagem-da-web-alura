@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="teste"></div>
+
+    <script>
+        var div = document.createElement("div");
+        var h1 = document.createElement("h1");
+        h1.classList.add("titulo");
+        h1.textContent = "Mirror Fashion";
+
+        var p = document.createElement("p");
+        p.textContent = "Uma loja de roupa fantástica";
+
+        div.appendChild(h1);
+        div.appendChild(p);
+
+        var teste = document.querySelector(".teste");
+        teste.appendChild(div);
+        
+    </script>
+</body>
+</html>
